@@ -112,7 +112,7 @@ top: 60px;
   left: 20px;
   bottom:0px;
 }
-@media (max-width:550px){
+@media (max-width:750px){
   body{
     text-align: center;
     width: 720px;
