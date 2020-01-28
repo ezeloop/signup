@@ -125,6 +125,7 @@ top: 60px;
   .firstContainer{
     position: static;
     top:0px;
+    left: 50px;
     margin: 1% 0 1% 0;
     padding:  1% 0 1% 0;
   }
