@@ -123,9 +123,9 @@ top: 60px;
 
   }
   .firstContainer{
-    position: static;
+    position: absolute;
     top:0px;
-    left: 200px;
+    left: 100px;
     margin: 1% 0 1% 0;
     padding:  1% 0 1% 0;
   }
