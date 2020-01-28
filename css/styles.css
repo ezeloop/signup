@@ -130,9 +130,17 @@ top: 60px;
   }
   .secondContainer{
     position: absolute;
-    margin: 110% 15% 1% 35%;
+    margin: 110% auto 1% auto;
 
     padding:  1% 0 1% 0;
+        
+left:45%;
+    
+    
+
+
+
+  }
 
 
 
