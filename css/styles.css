@@ -112,51 +112,50 @@ top: 60px;
   left: 20px;
   bottom:0px;
 }
-@media (max-width:600px){
+@media (max-width:720px){
   body{
     text-align: center;
+    width: 720px;
   }
   .first-text{
-    position: relative;
-    bottom:140px;
-    right:310px;
+    text-align: center;
   }
   .btn-top{
     position: absolute;
-    top:240px;
-    right:345px;
+    top:450px;
+    right:95px;
   }
   .form-group{
     position: relative;
-    top:290px;
-    left:157px;
+    bottom:-470px;
+    left:19px;
   }
   .square{
     position: relative;
-    left:157px;
-    top:290px;
+    left:133px;
+    top:520px;
     background-color: white;
     width: 450px;
-    height: 450px;
+    height: 420px;
     z-index: -1;
     border-radius:20px;
 
   }
   .btn-sign{
     position: relative;
-    top:330px;
-    left:74px;
+    top:470px;
+    left:20px;
 
   }
   .attribution{
     position: absolute;
-    top:830px;
-    left: 290px;
+    top:1130px;
+    left: 190px;
   }
   .termsP{
     position: relative;
-    top:265px;
-    left:293px;
+    top:485px;
+    left:22px;
   }
 }
 
