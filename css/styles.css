@@ -149,7 +149,7 @@ top: 60px;
 
   .square{
     position: absolute;
-    
+    left:15%;
     margin: 1% 0 1% 0;
     padding:  1% 0 1% 0;
   }
