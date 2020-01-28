@@ -112,7 +112,7 @@ top: 60px;
   left: 20px;
   bottom:0px;
 }
-@media (max-width:500px){
+@media (max-width:550px){
   body{
     text-align: center;
     width: 720px;
@@ -128,7 +128,7 @@ top: 60px;
   .form-group{
     position: relative;
     bottom:-470px;
-    left:230px;
+    left:320px;
   }
   .square{
     position: relative;
