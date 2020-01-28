@@ -131,7 +131,7 @@ top: 60px;
   .secondContainer{
     position: absolute;
     margin: 130% 2% 1% 2%;
- right:-300px;
+ right:-280px;
     padding:  1% 0 1% 0;
 
 
@@ -140,7 +140,7 @@ top: 60px;
 
   .square{
     position: absolute;
-    left:-100px;
+    
     margin: 1% 0 1% 0;
     padding:  1% 0 1% 0;
   }
