@@ -112,3 +112,51 @@ top: 60px;
   left: 20px;
   bottom:0px;
 }
+@media (max-width:600px){
+  body{
+    text-align: center;
+  }
+  .first-text{
+    position: relative;
+    bottom:140px;
+    right:110px;
+  }
+  .btn-top{
+    position: absolute;
+    top:240px;
+    right:45px;
+  }
+  .form-group{
+    position: relative;
+    bottom:-240px;
+    left:75px;
+  }
+  .square{
+    position: relative;
+    left:57px;
+    top:290px;
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    z-index: -1;
+    border-radius:20px;
+
+  }
+  .btn-sign{
+    position: relative;
+    top:230px;
+    left:74px;
+
+  }
+  .attribution{
+    position: absolute;
+    top:830px;
+    left: 120px;
+  }
+  .termsP{
+    position: relative;
+    top:265px;
+    left:73px;
+  }
+}
+
