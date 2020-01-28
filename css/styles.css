@@ -130,7 +130,7 @@ top: 60px;
   }
   .secondContainer{
     position: absolute;
-    margin: 130% auto 1% auto;
+    margin: 145% auto 1% auto;
 
     padding:  1% 0 1% 0;
         
@@ -149,7 +149,7 @@ top: 60px;
 
   .square{
     position: absolute;
-    left:85%;
+    left:45%;
     margin: 1% 0 1% 0;
     padding:  1% 0 1% 0;
   }
