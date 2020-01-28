@@ -112,7 +112,7 @@ top: 60px;
   left: 20px;
   bottom:0px;
 }
-@media (max-width:720px){
+@media (max-width:500px){
   body{
     text-align: center;
     width: 720px;
@@ -123,16 +123,16 @@ top: 60px;
   .btn-top{
     position: absolute;
     top:450px;
-    right:95px;
+    right:-115px;
   }
   .form-group{
     position: relative;
     bottom:-470px;
-    left:19px;
+    left:230px;
   }
   .square{
     position: relative;
-    left:133px;
+    left:135px;
     top:520px;
     background-color: white;
     width: 450px;
@@ -144,18 +144,19 @@ top: 60px;
   .btn-sign{
     position: relative;
     top:470px;
-    left:20px;
+    left:230px;
 
   }
   .attribution{
     position: absolute;
     top:1130px;
-    left: 190px;
+    left: 220px;
   }
   .termsP{
     position: relative;
     top:485px;
-    left:22px;
+    left:230px;
   }
 }
+
 
