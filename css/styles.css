@@ -124,24 +124,15 @@ top: 60px;
   }
   .firstContainer{
     position: static;
-    
-    margin: 1% 3% 1% 0;
+    top:0px;
+    margin: 1% 0 1% 0;
     padding:  1% 0 1% 0;
   }
   .secondContainer{
     position: absolute;
-    margin: 145% auto 1% auto;
-
+    margin: 110% auto 1% auto;
+left:45%;
     padding:  1% 0 1% 0;
-        
-    left:85%;
-    
-    
-    
-
-
-
-  }
 
 
 
@@ -149,7 +140,7 @@ top: 60px;
 
   .square{
     position: absolute;
-    left: -220px;
+    left:-100px;
     margin: 1% 0 1% 0;
     padding:  1% 0 1% 0;
   }
