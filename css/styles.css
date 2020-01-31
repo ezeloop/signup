@@ -15,10 +15,28 @@ h1{
   font-weight: bold;
 
 }
-.first-text
-{
-  float:left;
-  margin: 150px;
+
+.container{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-areas:
+  "left right"
+  "left right"
+  "left right";
+  /*"left right"
+  ". right3"
+  ". right4"
+  "footer footer1 footer"
+*/
+}
+
+.first{
+  grid-area:left;
+  margin: 30% 8% 15% 3%;
+}
+.second{
+  grid-area:right;
+  margin:0 10% 0 12%;
 }
 
 .errorMessage{
@@ -30,10 +48,8 @@ h1{
   padding: 0;
 }
 .form-signin {
-position: absolute;
-right: 145px;
-top: 60px;
-  width: 400px;
+
+  width: 420px;
   padding: 15px;
   margin: 3%;
 }
@@ -51,14 +67,14 @@ top: 60px;
   z-index: 2;
 }
 
-/*  margin-bottom: -1px;**/
 
 .btn-top{
-  position: absolute;
-  top:-20px;
-  right: 120px;
-  padding: 15px;
-    margin: 3%;
+width:450px;
+
+margin-bottom: 12%;
+
+
+
     box-shadow: 0px 5px 10px 1px #851d41;
     border-radius: 5px;
     background-color: #633a82;
@@ -71,6 +87,10 @@ top: 60px;
   background:#c295d8;
   border-color: #c295d8;
 }
+.btn-sign{
+  width: 390px;
+  margin-left: 6.5%;
+}
 .btn-sign:hover{
   background: #a7e9af;
   border-color: #a7e9af;
@@ -80,9 +100,8 @@ top: 60px;
 .termsP{
   color:GRAY;
   font-size: 11px;
-  position: relative;
-  bottom:-10px;
-  text-align: center;
+  margin-left: 8%
+
 }
 
 .background-img
@@ -90,67 +109,37 @@ top: 60px;
   position: relative;
 }
 .square{
-  position: relative;
-  left:125px;
-  top:70px;
+
+  position: absolute;
+  right: 115px;
+  top: 130px;
+
   background-color: white;
   width: 450px;
   height: 450px;
-  z-index: -1;
+  z-index: -2;
   border-radius:20px;
 }
-.disclaimer{
-  text-align: center;
-}
-.disclaimer span{
+
+.termsP span{
   color:red;
+
 }
-.attribution
-{
-  position: absolute;
-  left: 20px;
-  bottom:0px;
-}
+
 
 @media (max-width:600px){
-  body{
-
-    width: 550px;
-
+  h1,h2,p{
     text-align: center;
-    margin: 1% 0 1% 0;
-    padding:  1% 0 1% 0;
-
   }
-  .firstContainer{
-    position: static;
-    top:0px;
-    margin: 1% 0 1% 0;
-    padding:  1% 0 1% 0;
-  }
-  .secondContainer{
-    position: absolute;
-    margin: 130% 2% 1% 2%;
- right:-280px;
-    padding:  1% 0 1% 0;
-
-
-
-  }
-
-  .square{
-    position: absolute;
-    left:-220px;
-    
-    margin: 1% 0 1% 0;
-    padding:  1% 0 1% 0;
-  }
-  .attribution{
-    position: relative;
-    top:500px;
-  }
-  .background-img
-  {
-
-    width: 550px;
-  }
+.square{
+  width: 550px;
+  width: auto;
+}
+.container{
+  margin:0 25% 0 25%;
+  grid-template-areas:
+  "content"
+  "left"
+  "left"
+  "right"
+}
