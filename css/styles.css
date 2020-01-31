@@ -37,7 +37,7 @@ h1{
 
 .first{
   grid-area:left;
-  margin: 30% 8% 15% 3%;
+  margin: 30% 8% 15% 0%;
 }
 .second{
   grid-area:right;
@@ -114,10 +114,10 @@ margin-bottom: 12%;
   position: relative;
 }
 .square{
-
-  position: absolute;
-  right: 115px;
-  top: 130px;
+grid-row:1;
+  grid-column: 2/-1;
+  margin: 15% 0 0 12%;
+  align-items: :end;
   background-color: white;
   width: 450px;
   height: 450px;
@@ -140,31 +140,41 @@ margin-bottom: 12%;
   body{
     width: 550px;
     overflow: auto;
+    margin-left: 0px;
+    padding-left: 0px;
   }
+  .container{
+    grid-template-columns:500px;
+    grid-template-rows: auto auto auto;
+
+  }
+
 .square{
-  width: 0px;
-}
-.container{
-
-  grid-template-areas:
-  "left"
-  "left"
-  "left"
-  "right"
-
+grid-row:2;
+grid-column: 1;
+justify-content: flex-start;
+margin: 15% 0 0 5%;
+height: 470px;
 }
 
+.second{
+grid-row:2;
+grid-column: 1;
+margin:0 0% 0 5%;
+}
 .btn-top{
   width: 100px;
 }
 .first{
-  margin-left: 25%;
+grid-row: 1;
+margin:5% 10% 5% 10%;
+
 }
 .footer{
-position: absolute;
-bottom:-610px;
+grid-row: 3;
 }
 .termsP
 {
-  margin-left: 19%;
+  margin-right:12%;
+
 }
